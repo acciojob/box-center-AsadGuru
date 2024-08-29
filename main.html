@@ -3,13 +3,47 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="styles.css"> -->
+
+	<style>
+		body, html {
+			margin:0;
+			padding:0;
+			height:100%;
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+
+		/* center the box using absolute positioning */
+
+		.container {
+			width:200px;
+			height:200px;
+			background-color: lightblue;
+			border:2px solid black;
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+
+		/* Style for the text inside the box */
+
+		.text {
+			color:purple;
+			text-align:center;
+			margin:0;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- <script type="text/javascript" src="./script.js"> -->
+<!-- </script> -->
+	<div class="container">
+		<p class="text">This is center.</p>
+	</div>
 
 </body>
 
